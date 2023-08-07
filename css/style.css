@@ -928,6 +928,7 @@ img {
 .order-form-btn:focus {
   background-color: var(--ocean);
 }
+
 /**
   |============================
   | hide mobile menu
@@ -1120,6 +1121,15 @@ img {
   }
   .footer-form-btn {
     width: 165px;
+  }
+
+  /**
+  |============================
+  | data model mobile
+  |============================
+*/
+  .modal-card {
+    transform: translate(-50%, -70%);
   }
 
   /**
@@ -1368,5 +1378,8 @@ img {
   }
   .footer-social {
     margin-right: 0;
+  }
+  .modal-card {
+    transform: translate(-65%, -75%);
   }
 }
