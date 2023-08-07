@@ -246,6 +246,11 @@ img {
   max-width: 1440px;
   margin: 0 auto;
 }
+@media (min-resolution: 192dpi) {
+  .main-section {
+    background-image: url('../images/hero-bg.jpg');
+  }
+}
 
 .main-button {
   color: var(--white);
@@ -934,7 +939,8 @@ img {
   | hide mobile menu
   |============================
 */
-.menu-toggle {
+.menu-toggle,
+.menu-container {
   display: none;
 }
 
