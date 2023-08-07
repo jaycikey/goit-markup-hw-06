@@ -248,7 +248,7 @@ img {
 }
 @media (min-resolution: 192dpi) {
   .main-section {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg@2x.jpg');
   }
 }
 
