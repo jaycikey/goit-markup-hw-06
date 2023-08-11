@@ -731,7 +731,7 @@ img {
   .footer-text-second {
     text-align: center;
   }
-  .footer-text,
+  .footer-logo-block,
   .footer-social {
     margin-bottom: 72px;
   }
@@ -1449,7 +1449,7 @@ img {
   .footer-form {
     gap: 24px;
   }
-  .footer-text,
+  .footer-logo-block,
   .footer-social {
     margin-bottom: 0;
   }
