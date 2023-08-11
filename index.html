@@ -27,17 +27,6 @@
           <a href="./index.html" class="logo link"
             >Web<span class="logo-second">Studio</span>
           </a>
-          <button
-            type="button"
-            aria-label="Menu"
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg width="32" height="22">
-              <use href="./images/icons.svg#icon-vector-menu"></use>
-            </svg>
-          </button>
           <ul class="header-nav-list list">
             <li>
               <a href="./index.html" class="header-nav-item link current"
@@ -66,6 +55,17 @@
             </li>
           </ul>
         </address>
+        <button
+          type="button"
+          aria-label="Menu"
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22">
+            <use href="./images/icons.svg#icon-vector-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -141,28 +141,13 @@
           <h2 class="title-two">What are we doing</h2>
           <ul class="wawd-list list">
             <li class="wawd-item">
-              <img
-                srcset="./images/work1.jpg 1x, ./images/work1.jpg 2x"
-                src="./images/work1.jpg"
-                alt="Statistics site"
-                width="360"
-              />
+              <img src="./images/work1.jpg" alt="Statistics site" width="360" />
             </li>
             <li class="wawd-item">
-              <img
-                srcset="./images/work2.jpg 1x, ./images/work2.jpg 2x"
-                src="./images/work2.jpg"
-                alt="Mopile messager"
-                width="360"
-              />
+              <img src="./images/work2.jpg" alt="Mopile messager" width="360" />
             </li>
             <li class="wawd-item">
-              <img
-                srcset="./images/work3.jpg 1x, ./images/work3.jpg 2x"
-                src="./images/work3.jpg"
-                alt="Mobile app"
-                width="360"
-              />
+              <img src="./images/work3.jpg" alt="Mobile app" width="360" />
             </li>
           </ul>
         </div>
@@ -172,12 +157,7 @@
           <h2 class="title-two">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                srcset="./images/cowoker1.jpg 1x, ./images/cowoker1.jpg 2x"
-                src="./images/cowoker1.jpg"
-                alt="Mark Guerrero Photo"
-                width="264"
-              />
+              <div class="cowoker1 cowoker"></div>
               <div class="team-desc">
                 <h3 class="title-three">Mark Guerrero</h3>
                 <p class="text">Product Designer</p>
@@ -234,12 +214,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                srcset="./images/cowoker2.jpg 1x, ./images/cowoker2.jpg 2x"
-                src="./images/cowoker2.jpg"
-                alt="Tom Ford Photo"
-                width="264"
-              />
+              <div class="cowoker2 cowoker"></div>
               <div class="team-desc">
                 <h3 class="title-three">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
@@ -296,12 +271,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                srcset="./images/cowoker3.jpg 1x, ./images/cowoker3.jpg 2x"
-                src="./images/cowoker3.jpg"
-                alt="Camila Garcia Photo"
-                width="264"
-              />
+              <div class="cowoker3 cowoker"></div>
               <div class="team-desc">
                 <h3 class="title-three">Camila Garcia</h3>
                 <p class="text">Marketing</p>
@@ -358,12 +328,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                srcset="./images/cowoker4.jpg 1x, ./images/cowoker4.jpg 2x"
-                src="./images/cowoker4.jpg"
-                alt="Daniel Wilson Photo"
-                width="264"
-              />
+              <div class="cowoker4 cowoker"></div>
               <div class="team-desc">
                 <h3 class="title-three">Daniel Wilson</h3>
                 <p class="text">UI Designer</p>
@@ -695,7 +660,9 @@
 
       <ul class="mobile-menu list">
         <li>
-          <a href="./index.html" class="mobile-menu-link link">Studio</a>
+          <a href="./index.html" class="mobile-menu-link link current-m"
+            >Studio</a
+          >
         </li>
         <li>
           <a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a>
